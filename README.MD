@@ -1,33 +1,25 @@
 # Project Description
 
-Emmanuelle Go's Project, Part 1
+Emmanuelle Go's Project, Part 2
 
-# New Data Screenshot
+# Postman Browse
 
-![screenshot](screenshots/adddata.png)
+![screenshot](screenshots/postmanbrowse.png)
 
-![screenshot](screenshots/adddata2.png)
+# Postman New Data
 
-# Edit Data Screenshot
+![screenshot](screenshots/postmanadd.png)
 
-![screenshot](screenshots/editdata.png)
+![screenshot](screenshots/postmanadd2.png)
 
-![screenshot](screenshots/editdata2.png)
+# Postman Edit New Data
 
-# Delete Data Screenshot
+![screenshot](screenshots/postmanupdate.png)
 
-![screenshot](screenshots/deletedata.png)
+![screenshot](screenshots/postmanupdate2.png)
 
-![screenshot](screenshots/deletedata2.png)
+# Postman Delete Data
 
-# Homepage
+![screenshot](screenshots/postmandelete.png)
 
-![screenshot](screenshots/homepage.png)
-
-# Postman Screenshot
-
-![postman_request_output](screenshots/postman.png)
-
-# Query Screenshot
-
-![query_output](screenshots/query.png)
+![screenshot](screenshots/postmandelete2.png)
