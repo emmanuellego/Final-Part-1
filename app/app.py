@@ -44,9 +44,9 @@ def form_edit_get(tree_id):
 @app.route('/edit/<int:tree_id>', methods=['POST'])
 def form_update_post(tree_id):
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Index'), request.form.get('Girth_in'), request.form.get('Height_ft'),
+    inputData = (request.form.get('Indx'), request.form.get('Girth_in'), request.form.get('Height_ft'),
                  request.form.get('Volume_ft_3'), tree_id)
-    sql_update_query = """UPDATE trees t SET t.Index = %s, t.Girth_in = %s, t.Height_ft = %s, t.Volume_ft_3 = 
+    sql_update_query = """UPDATE trees t SET t.Indx = %s, t.Girth_in = %s, t.Height_ft = %s, t.Volume_ft_3 = 
     %s WHERE t.id = %s """
     cursor.execute(sql_update_query, inputData)
     mysql.get_db().commit()
@@ -60,9 +60,9 @@ def form_insert_get():
 @app.route('/trees/new', methods=['POST'])
 def form_insert_post():
     cursor = mysql.get_db().cursor()
-    inputData = (request.form.get('Index'), request.form.get('Girth_in'), request.form.get('Height_ft'),
+    inputData = (request.form.get('Indx'), request.form.get('Girth_in'), request.form.get('Height_ft'),
                  request.form.get('Volume_ft_3'))
-    sql_insert_query = """INSERT INTO trees (Index,Girth_in,Height_ft,Volume_ft_3) VALUES (%s, %s, %s, %s) """
+    sql_insert_query = """INSERT INTO trees (Indx,Girth_in,Height_ft,Volume_ft_3) VALUES (%s, %s, %s, %s) """
     cursor.execute(sql_insert_query, inputData)
     mysql.get_db().commit()
     return redirect("/", code=302)

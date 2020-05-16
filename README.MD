@@ -1,11 +1,33 @@
-##Project Description
+# Project Description
 
-This project is a homework assignment to teach how to get PyCharm setup with Docker, Flask, MYSQL
+Emmanuelle Go's Project, Part 1
 
-##Postman Screenshot
+# New Data Screenshot
+
+![screenshot](screenshots/adddata.png)
+
+![screenshot](screenshots/adddata2.png)
+
+# Edit Data Screenshot
+
+![screenshot](screenshots/editdata.png)
+
+![screenshot](screenshots/editdata2.png)
+
+# Delete Data Screenshot
+
+![screenshot](screenshots/deletedata.png)
+
+![screenshot](screenshots/deletedata2.png)
+
+# Homepage
+
+![screenshot](screenshots/homepage.png)
+
+# Postman Screenshot
 
 ![postman_request_output](screenshots/postman.png)
 
-##Query Screenshot
+# Query Screenshot
 
 ![query_output](screenshots/query.png)
