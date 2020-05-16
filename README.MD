@@ -31,3 +31,7 @@ Emmanuelle Go's Project, Part 1
 # Query Screenshot
 
 ![query_output](screenshots/query.png)
+
+# API Screenshot
+
+![screenshot](screenshots/api.png)
